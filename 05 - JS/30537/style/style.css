@@ -1,0 +1,38 @@
+.app {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: darkslategray;
+    color: floralwhite;
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    padding: 10px;
+}
+
+#container {
+    padding: 5px;
+    /* background-color:tomato; */
+}
+
+.form {
+    text-align: center;
+    padding: 10px;
+}
+
+input {
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    align-self: flex-end;
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}

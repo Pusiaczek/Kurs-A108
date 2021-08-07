@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://formspree.io/f/xgerkaak" method="POST">
+        <label for="name">Imię: </label>
+        <input type="text" name="name" id="name" placeholder="Imię"><br>
+        <label for="surname">Nazwisko: </label>
+        <input type="text" name="surname" id="surname" placeholder="Nazwisko"><br>
+        <input type="email" name="email" placeholder="E-mail"><br>
+        <input type="number" name="phone" placeholder="Numer telefonu"><br>
+        <select name="city">
+            <option value="Kraków">Kraków</option>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Gdańsk">Gdańsk</option>
+        </select><br>
+        <input type="radio" name="sex" id="male"><label for="male">M</label>
+        <input type="radio" name="sex" id="female"><label for="female">K</label><br>
+        <input type="checkbox" name="agreement" id="agreement"><label for="agreement">Wyrażam zgodę</label><br>
+        <textarea name="message" maxlength="50" placeholder="Co chcesz nam powiedzieć?"></textarea><br>
+        
+        <input type="submit" value="Wyślij">
+    </form>
+</body>
+</html>

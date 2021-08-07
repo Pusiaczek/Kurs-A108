@@ -1,0 +1,16 @@
+.container {
+    background-color: #808080;
+    padding: 15px 30px;
+    width: 50%;
+}
+
+.naglowek {
+    color: white;
+}
+
+.kwadrat {
+    width: 250px;
+    height: 250px;
+    background-color:#fea500;
+    /* margin: 10px; */
+}

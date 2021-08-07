@@ -1,0 +1,32 @@
+.main {
+    width: 400px;
+    height: 300px;
+    background-color: black;
+    color: white;
+    font-size: 6em;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+p::after {
+    content: "10";
+    color: white;
+    animation: test 11s;
+}
+
+@keyframes test {
+      0% {content: "10";}
+     10% {content: "9";}
+     20% {content: "8";}
+     30% {content: "7";}
+     40% {content: "6";}
+     50% {content: "5";}
+     60% {content: "4";}
+     70% {content: "3";}
+     80% {content: "2";}
+     90% {content: "1";}
+    100% {content: "I LOVE CSS :)";}
+}

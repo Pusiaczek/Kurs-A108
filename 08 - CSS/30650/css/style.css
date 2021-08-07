@@ -1,0 +1,32 @@
+.main {
+    width: 400px;
+    height: 400px;
+    border: #666360 solid 10px;
+    position: relative;
+  }
+  
+  .inner {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+  }
+  
+  .first {
+    background-color: #a6a9b6;
+  }
+  
+  .second {
+    background-color: #e4e4e4;
+    right: 0px;
+  }
+  
+  .third {
+    background-color: #ff912e;
+    bottom: 0px;
+  }
+  
+  .fourth {
+    background-color: #a6a9b6;
+    right: 0px;
+    bottom: 0px;
+  }

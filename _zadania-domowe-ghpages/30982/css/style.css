@@ -1,0 +1,83 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-size: 1em ; */
+}
+
+h2 {
+    text-align: center;
+    text-transform:uppercase;
+}
+
+h3 {
+    margin-left: 2%;
+}
+
+#oblicz {
+    width: 125px;
+    height: 50px;
+    margin: 10px auto;
+    border: tan 2px solid;
+    background-color: white;
+}
+
+#oblicz:hover {
+    cursor: pointer;
+}
+
+#pracownicy {
+    margin: auto;
+    width: 800px;
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+
+
+[id^=pracownik],
+#title {
+    display: flex;
+    justify-content: center;
+    padding: 2px 0;
+    font-size: 1em;
+    /* background-color: rgba(20, 200, 20, 0.2); */
+    background-color:limegreen;
+}
+
+#title {
+    /* font-size: 1.2em; */
+    font-weight: 600;
+}
+
+.pracownik,
+#tytul-pracownik {
+    width: 25%;
+}
+
+.czas,
+.stawka
+{
+    width: 10%;
+    border: none;
+    outline: 1px solid tan;
+    margin: 0 10px;
+    font-size: 1em;
+    /* text-align: end; */
+}
+
+#tytul-czas,
+#tytul-stawka {
+    width: 10%;
+}
+
+.czas:focus,
+.stawka:focus {
+    outline: 3px solid tan;
+    text-align: center;
+}
+
+
+.wyplata,
+#tytul-wyplata {
+    width: 10%;
+    
+}

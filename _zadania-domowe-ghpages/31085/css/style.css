@@ -1,0 +1,31 @@
+.accordion-button.collapsed {
+    background-color:rgb(243, 243, 243) !important;
+    color: rgb(185, 182, 3);
+    justify-content: center;
+}
+
+.accordion-button.collapsed:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color:rgb(238, 238, 238) !important;
+    color: rgb(185, 182, 3);
+    text-decoration: underline;
+    justify-content: center;
+}
+
+.accordion-button:not(.collapsed):hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+
+.accordion-button.collapsed::after {
+    content: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    content: none;
+}

@@ -1,0 +1,11 @@
+    ul>li{Element}*4
+
+    div#pierwszy>p{Akapit pierwszy}+p{Akapit drugi}
+
+    div#lista>ol>li{produkt $}*5
+
+    nav>ul#menu>li{item}*4
+
+    div#tekst>h1{Tytuł}+p.paragraf{akapit 1}
+
+    article>h1{Tytuł artykułu}+p#akapit1{tekst}+h2{podtytuł}+p#akapit2{tekst}>a{Link}

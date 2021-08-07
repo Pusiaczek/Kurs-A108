@@ -1,0 +1,11 @@
+p {
+    color: springgreen;
+}
+
+h1, h3 { 
+    background-color: steelblue;
+}
+
+h1 + h3 {
+    color: pink;
+}

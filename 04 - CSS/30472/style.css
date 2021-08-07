@@ -1,0 +1,14 @@
+.container {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.naglowek {
+    color: #0000ff;
+}
+
+
+.wyroznienie {
+    color: #ff0000;
+}

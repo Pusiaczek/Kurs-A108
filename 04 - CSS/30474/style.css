@@ -1,0 +1,25 @@
+body {
+    background-color: #f5f5dd;
+}
+
+div {
+    width: 250px;
+    height: 250px;
+    margin: 25px;
+}
+
+.kwadrat1 {
+    background-color: rgba(0, 0, 0, 100%);
+}
+
+.kwadrat2 {
+    background-color: rgba(0, 0, 0, 75%);
+}
+
+.kwadrat3 {
+    background-color: rgba(0, 0, 0, 50%);
+}
+
+.kwadrat4 {
+    background-color: rgba(0, 0, 0, 25%);
+}

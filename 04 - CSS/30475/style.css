@@ -1,0 +1,43 @@
+body {
+ background-color: gray;
+}
+
+h1 {
+ background-color: salmon;
+}
+
+h2 {
+    background-color: seagreen;
+}
+
+.akapit1 {
+    background-color: skyblue;
+}
+
+.akapit2 {
+    background-color: turquoise;
+}
+
+ol {
+    background-color: yellowgreen;
+}
+
+.list-item1 {
+    color: springgreen;
+}
+
+.list-item2 {
+    color:wheat ;
+}
+
+.list-item3 {
+    color: aqua;
+}
+
+.list-item4 {
+    color: indigo;
+}
+
+.list-item5 {
+    color: hotpink;
+}

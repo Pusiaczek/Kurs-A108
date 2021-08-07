@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+.py-60 {
+    padding: 60px 0;
+}
+
+.nav-link.active {
+    font-weight: 600;
+}
+
+
+.description__item {
+    padding: 20px 8%;
+}
+
+.our-team__portrait {
+    max-width: 200px;
+}
+
+.description-details__img {
+    object-fit: fill;
+}
+
+.img-fit{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#signup {
+    background-image: url('../img/slider-1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    #carouselExampleCaptions
+    {
+        height: 50vh;
+    }
+
+    .carousel-item,
+    .carousel-inner,
+    .carousel-img {
+        height: 100%;
+        object-fit: cover;
+    }
+}

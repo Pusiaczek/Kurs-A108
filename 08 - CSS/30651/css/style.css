@@ -1,0 +1,37 @@
+.main {
+    width: 100%;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    margin: 25px auto;
+}
+
+.red {
+    background-color: red;
+    transition: width 0.5s ease-in;
+}
+
+.red:hover {
+    width: 300px;
+}
+
+.green {
+    background-color: green;
+    transition: height 0.5s ease-in;
+}
+
+.green:hover {
+    height: 300px;
+}
+
+.blue {
+    background-color: blue;
+    transition: height 0.5s ease-in, width 0.5s ease-in; 
+}
+
+.blue:hover {
+    width: 300px;
+    height: 300px;
+}
